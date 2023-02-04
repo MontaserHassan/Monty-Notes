@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    margin: 0px 15px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    padding: 15px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+.container{
+    margin: auto;
+    width: 45%;
+    background-color: wheat;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.buttons{
+    margin: 20px 0px;
+    border-radius: 5px;
+    background-color:rgba(180, 125, 10, 0.99);
+}
+
+#inputText{
+    display: inline;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    padding: 10px 120px;
+    text-align: center;
+}
+
+#okayButton{
+    display: inline;
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px 15px;
+    color: white;
+}
+
+#okayButton:hover{
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.tasks{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    background-color: rgba(224, 116, 24, 0.667);
+    color: white;
+}
+
+.tasks div{
+    text-align: center;
+    margin: 2px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgba(224, 126, 34, 0.867);
+    border: 1px solid wheat;
+}
+
+.tasks div:hover{
+    border-radius: 5px;
+    margin-top: 1px;
+    border: 1px solid wheat;
+    background-color: rgba(255, 140, 0, 0.778);
+    color: black;
+}
+
+.tasks button{
+    display: inline;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    float: right;
+    padding: 0px 15px;
+    text-align: center;
+    color: white;
+}
+
+.tasks button:hover{
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    cursor: pointer;
+}
